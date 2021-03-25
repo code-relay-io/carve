@@ -100,6 +100,7 @@
                               snippet-lines)]
       (str/join "\n" snippet-lines))))
 
+;;; TODO: Fix this to remove the text `:refer []` when removing the contents of the []
 (defn remove-locs [file zloc locs locs->syms
                    {:keys [:interactive
                            :dry-run

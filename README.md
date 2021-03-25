@@ -2,12 +2,19 @@
 
 https://github.com/borkdude/carve/issues/47
 
-
 Remember your job is to make *incremental* progress, break the task into smaller tasks, or finish something in 15 minutes, then pass it along to the next contributor. 
 No responsibility, only fun.
 
-
 When you have finished your 15 minutes, add your next task to the readme.md. Then make a pull request to this repo.
+
+# Task # 2
+
+The issue 47 should be fixed by probably just removing the `:refer []` since
+the rest of the `require` might still be necessary.
+
+The place to fix it seems to be the `remove-locs` function in
+
+src/carve/impl.clj
 
 # Carve
 
@@ -45,7 +52,6 @@ Experimental. Use with caution! Breaking changes may happen. Feedback and bugfix
 ### Manual
 
 Grab the binary for your OS at [Github releases](https://github.com/borkdude/carve/releases).
-
 
 ### JVM
 
@@ -210,7 +216,6 @@ For example with:
 - [Carve that Clojure codebase](https://juxt.pro/blog/carve) by Andrea Crotti
 
 ## Dev
-
 
 ### Running tests
 
